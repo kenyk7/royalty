@@ -1,0 +1,14 @@
+{
+  "name": "royalty",
+  "homepage": "https://github.com/kenyk7",
+  "authors": [
+    {
+      "name": "Keny Romero",
+      "email": "kenykalin@gmail.com",
+      "homepage": "https://github.com/kenyk7/royalty"
+    }
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}

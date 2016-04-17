@@ -1,0 +1,20 @@
+@media(max-width: 520px){
+	// helps
+	.hidden-xxs{
+		display: none,
+	}
+	.visible-xxs{
+		display: block;
+	}
+	// general
+
+}
+
+@media(min-width: 520px){
+	.hidden-xxs{
+		display: block;
+	}
+	.visible-xxs{
+		display: none;
+	}
+}
