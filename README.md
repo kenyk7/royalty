@@ -12,7 +12,7 @@ browsersync: {
 , port: 3000 // Port number for the live version of the site; default: 3000
 , proxy: 'local.royalty.com' // We need to use a proxy instead of the built-in server because WordPress has to do some server-side rendering for the theme to work
 , watchOptions: {
-    debounceDelay: 2000 // This introduces a small delay when watching for file change events to avoid triggering too many reloads
+    debounceDelay: 500 // This introduces a small delay when watching for file change events to avoid triggering too many reloads
   }
 },
 ```
@@ -32,7 +32,7 @@ browsersync: {
 
 
 ## Organización del proyecto
-**IMPORTANTE:** Todo el desarrollo se realiza en la carpeta */src/* y es la herramienta GULP la encargada de colocar todo como debe.
+**IMPORTANTE:** Todo el desarrollo se realiza en la carpeta **/src/** y es la herramienta GULP la encargada de colocar todo como debe.
 
 #### Estilos
 Se está usando Sass como precompilador de CSS. Podrás encontrar toda la jerarquía de archivos en:
@@ -54,8 +54,8 @@ Se está usando Sass como precompilador de CSS. Podrás encontrar toda la jerarq
 
 ### Javascripts
 Se configuró el proyecto para que separe nuestros scripts en 2 archivos.
-* Los plugins o librerías externas irán almacenados en enteljs-plugins.js. Estas librerías se deberán instalar mediante bower y es necesario modificar el archivo gulpconfig.js para indicarle los nuevos scripts.
-* Nuestro código de aplicación irá en enteljs-core.js
+* Los plugins o librerías externas irán almacenados en royaltyjs-plugins.js. Estas librerías se deberán instalar mediante bower y es necesario modificar el archivo gulpconfig.js para indicarle los nuevos scripts.
+* Nuestro código de aplicación irá en royaltyjs-core.js
 
 El archivo core.js que será donde trabajaremos nuestra aplicación se encuentra en **/src/js/**
 
