@@ -82,24 +82,3 @@ Las fuentes se declaran en el archivo de fuentes de Sass utilizando un mixin de 
 @include font-face("nombre-fuente", $icon-font-path + "nombre-fuente/nombre-fuente", $file-formats: eot woff ttf svg);
 ```
 
-## Otras consideraciones a la hora de trabajar en el proyecto
-
-* El idioma principal del proyecto es el Inglés
-    * Todas las variables deberán ser especificadas en inglés, tanto de PHP, javascript como clases de CSS
-    * Es preferible que se comente el código en inglés, pero en este caso podrá ser usado el español si se va a representar mejor la información que quieres transmitir.
-* La tabulación por defecto del proyecto es tabulación de 4 espacios. Esta configuración está especificada en el archivo .editorconfig
-* Es primordial contar con una extensión para linteo de javascripts en el editor que se vaya a utilizar. Por ejemplo:
-    * Atom Editor: jshint (https://atom.io/packages/jshint)
-    * Sublime Text Editor: Sublime JSHint (https://github.com/victorporof/Sublime-JSHint)
-* El HTML deberá ser correctamente formateado en cascada evitando comprimir varias etiquetas en una sola línea para poder leer más fácilmente el código. Una herramienta automatizada es la encargada luego de comprimir todo el HTML.
-* No dejar atributos HTML vacíos como name o id. Si no se necesitan no se ponen.
-* No dejar código comentado salvo casos de fuerza mayor. Si se necesita ver versiones anteriores de código se usará GIT.
-* En la cabecera de nuestras funciones, poner un pequeño comentario con la funcionalidad de esa función, así como detallar qué parámetros recibe la función y qué devuelve, si es que devuelve algo. Ejemplo:
-
-```
-/**
- * Method to change the graph to the selected time frame
- * @param  {string} type "Type of group to return its value"
- * @param  {array} item
- */
-```
