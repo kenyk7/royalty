@@ -18,6 +18,7 @@
     /**
      * Dom events run
      */
+    console.log('Hello world');
 
   });
 }(jQuery));

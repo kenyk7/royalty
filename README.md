@@ -61,9 +61,11 @@ El archivo core.js que será donde trabajaremos nuestra aplicación se encuentra
 
 ### PHP
 Los archivos php se encuentran organizados en 3 carpetas:
-En la **/src/inc/** se encuentran los archivos que se rautilizarán en la diferentes páginas
-En la **/src/template/** se encuentran los archivos base como el header y footer
-En la **/src/pages/** se encuentran los archivos de la diferentes páginas, para crear llamadas a estos se utilizará el metodo **get** de php para carga automática, ejemplo: **?pag=home** 
+
+* En la **/src/template/** se encuentran los archivos base como el header y footer
+* En la **/src/pages/** se encuentran los archivos de la diferentes páginas, para crear llamadas a estos se utilizará el metodo **get** de php para carga automática, ejemplo: **?pag=home**
+* En la **/src/pages/inc/** se encuentran los archivos que se rautilizarán en la diferentes páginas
+
 ### Imágenes
 Durante el proceso de creación de la versión de producción se optimizan todas las imágenes que tengamos en nuestra plantilla.
 

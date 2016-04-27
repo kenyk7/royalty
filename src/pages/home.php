@@ -3,7 +3,7 @@
 		<h1>Royalty Boilerplate</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime deserunt earum, in. Fuga architecto cumque, aliquam voluptates voluptate placeat aspernatur molestiae, quam illo voluptatum suscipit, repellat aliquid assumenda id?</p>
 		<p>
-			<a class="btn btn-primary btn-lg">Learn more</a>
+			<a href="https://github.com/kenyk7/royalty" target="_blank" class="btn btn-primary btn-lg">Learn more</a>
 		</p>
 	</div>
 </div>

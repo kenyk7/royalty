@@ -21,7 +21,7 @@ Domain Path: #{$theme-text-domain-path}
 
 // Reset: eliminate default browser styling (optional; commented out by default)
 @import "vendor/normalize/_normalize";
-@import "../../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "base/_general";
 
 @import "sections/_general";

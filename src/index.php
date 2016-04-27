@@ -1,10 +1,9 @@
 <?php
 
 error_reporting(0);
+$page = $_GET['p'];
 
 require 'template/header.php'; 
-
-$page = $_GET['p'];
 
 if(!$page){
 	include 'pages/home.php';
@@ -13,5 +12,4 @@ if(!$page){
 }
 
 require 'template/footer.php';
-
 ?>
