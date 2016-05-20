@@ -1,5 +1,5 @@
 # Royalty
-Frond-End Royalty
+Frond-End Royalty Php
 ## ¿Cómo montar el proyecto en local?
 * Clonar el repositorio al lugar de tu elección
 * Modificar el archivo **gulpconfig.js**. Cambiar el valor del proxy de BrowserSync al dominio que le hayas asignado al proyecto en tus virtualhost. Ejemplo:
