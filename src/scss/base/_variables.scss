@@ -1,73 +1,117 @@
 // ==== CONFIGURATION ==== //
 
 // Set all your configuration variables here!
-$theme-name:               "Royalty";
-$theme-uri:                "https://github.com/kenyk7/royalty.git";
-$theme-author:             "Keny Romero";
-$theme-author-uri:         "http://github.com/kenyk7";
-$theme-description:        "Frond-End Royalty";
-$theme-version:            "0.1.0";
-$theme-text-domain:        "royalty";
-$theme-text-domain-path:   "/languages/";
+$theme-name: "App";
+$theme-uri: "https://github.com/kenyk7/royalty.git";
+$theme-author:  "Keny Romero";
+$theme-author-uri:  "http://github.com/kenyk7";
+$theme-description: "Frond-End App";
+$theme-version: "0.1.0";
+$theme-text-domain: "App";
+$theme-text-domain-path: "/languages/";
 
 /**
  * Path to images to read from css
  */
-$imagesPath: 'images/cssimgs/';
+$imagesPath: '../images/cssimgs/';
 
 /**
  * Define global colors
  */
-$brand-primary: #01539f;
-$brand-secondary: #ff6702;
-$brand-success: rgb(34, 198, 34);
-$brand-info: rgb(36, 170, 210);
-$brand-warning: $brand-secondary;
-$brand-danger: rgb(217, 40, 35);
 
-$brand-indigo : #8a8a8a;
+/**
+ * themes
+*/
+// red
+// $brand-primary: #F44336;
+// pink
+// $brand-primary: #e91e63;
+// purple
+// $brand-primary: #7B1FA2;
+// deep purple
+// $brand-primary: #512DA8;
+// indigo
+// $brand-primary: #303F9F;
+// teal
+// $brand-primary: #009688;
+// deep orange
+// $brand-primary: #F4511E;
+// blue grey
+// $brand-primary: #607d8b;
+// yellow
+// $brand-primary: #F9A825;
+// blue
+// $brand-primary: #1976D2;
+// brown
+// $brand-primary: #795548;
+// black
+// $brand-primary: #000000;
+// red dark
+// $brand-primary: #c80c3c;
 
-$body-bg: #eaeaea;
+// default indigo
+$brand-primary: #303F9F;
+
+$brand-success: #4caf50;
+$brand-info: #9c27b0;
+$brand-warning: #f39c12;
+$brand-danger: #e74c3c;
+
+$brand-dark : #666;
+
+$body-bg: #fdfdfd;
+
+$grid-gutter-width: 20px !default;
 
 /**
  * Fonts
  */
+$font-size-base: 14px !default;
+
 $font-family-sans-serif: sans-serif;
-$font-title: sans-serif;
-$icon-font-path: 'fonts/';
 
-/**
- * Inputs
- */
-$input-border-radius: 2px;
+// custom fonts local
+// $font-100: "font-name-100", sans-serif;
+// $font-300: "font-name-300", sans-serif;
+// $font-400: "font-name-400", sans-serif;
+// $font-600: "font-name-600", sans-serif;
 
-// buttons
-
-
-/**
- * Breadcrumbs
- */
-$breadcrumb-padding-vertical: 0px !default;
-$breadcrumb-padding-horizontal: 0px !default;
-$breadcrumb-bg:                 $body-bg !default;
-$breadcrumb-separator:          "\203A" !default;
-
-
-// radius
-$border-radius-base: 1px;
-$border-radius-large: 1px;
-$border-radius-small: 1px;
-// paddings
-$padding-xs-vertical : 3px;
-$padding-xs-horizontal : 6px;
-$padding-large-vertical : 10px;
-$padding-large-horizontal : 25px;
+$font-path: '../fonts/';
+$icon-font-path: '../fonts/bootstrap/';
 
 // navbar
+$navbar-height: 60px;
 $navbar-default-bg: rgb(255, 255, 255);
 $navbar-inverse-color: rgb(238, 238, 238);
 $navbar-inverse-bg: $brand-primary;
 $navbar-inverse-link-color: rgb(238, 238, 238);
+
+
+// buttons
+$btn-default-color: #333 !default;
+$btn-default-bg: #fff !default;
+$btn-default-border: #ddd !default;
+
+
+// Breadcrumbs
+$breadcrumb-padding-vertical: 0px !default;
+$breadcrumb-padding-horizontal: 0px !default;
+$breadcrumb-bg: $body-bg !default;
+$breadcrumb-separator: "\203A" !default;
+
+
+// radius
+$border-radius-base: 2px;
+$border-radius-large: 2px;
+$border-radius-small: 2px;
+
+// paddings
+// $padding-base-vertical: 7px;
+// $padding-base-horizontal : 15px;
+// $padding-xs-vertical : 2px;
+// $padding-xs-horizontal : 6px;
+// $padding-large-vertical : 10px;
+// $padding-large-horizontal : 25px;
 
 // states
 $state-success-text: $brand-success;
@@ -79,14 +123,16 @@ $state-danger-text: $brand-danger;
 $alert-success-text: rgb(255, 255, 255);
 $alert-warning-text: rgb(255, 255, 255);
 $alert-danger-text: rgb(255, 255, 255);
+$alert-info-text: rgb(255, 255, 255);
 
 $alert-success-bg:$brand-success;
 $alert-success-border:$brand-success;
-
 $alert-warning-bg:$brand-warning;
 $alert-warning-border:$brand-warning;
 $alert-danger-bg:$brand-danger;
 $alert-danger-border:$brand-danger;
+$alert-info-bg:$brand-info;
+$alert-info-border:$brand-info;
 
 // panels
 $panel-success-text: rgb(255, 255, 255);
@@ -94,7 +140,23 @@ $panel-info-text: rgb(255, 255, 255);
 $panel-warning-text: rgb(255, 255, 255);
 $panel-danger-text: rgb(255, 255, 255);
 
+$panel-success-heading-bg:$brand-success;
+$panel-success-border:$brand-success;
+$panel-warning-heading-bg:$brand-warning;
+$panel-warning-border:$brand-warning;
+$panel-danger-heading-bg:$brand-danger;
+$panel-danger-border:$brand-danger;
+$panel-info-heading-bg:$brand-info;
+$panel-info-border:$brand-info;
+
 // dropdown
 $dropdown-border : transparent;
 
 // pagintation
+
+// progress
+$progress-bg: #555;
+
+/**
+ * my vars
+*/

@@ -1,7 +1,7 @@
 {
-  "name": "royalty",
+  "name": "App",
   "version": "0.1.0",
-  "description": "Frond-End Royalty",
+  "description": "Frond-End app",
   "homepage": "https://github.com/kenyk7",
   "repository": {
     "type": "git",

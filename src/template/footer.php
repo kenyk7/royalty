@@ -1,5 +1,5 @@
 <footer id="footer-page">
-	<h3 class="text-center">Footer page</h3>
+	<h4 class="text-center">Footer page</h4>
 </footer>
 
 <!-- plugins -->

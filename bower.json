@@ -1,5 +1,5 @@
 {
-  "name": "royalty",
+  "name": "App",
   "homepage": "https://github.com/kenyk7",
   "authors": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "dependencies": {
-    "jquery": "1.11.1",
+    "jquery": "<3 >1.11",
     "bootstrap-sass": "~3.3.6"
   }
 }
